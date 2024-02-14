@@ -245,6 +245,7 @@ class _HomePageState extends State<HomePage> {
                             setState(() {
                               authProvider.getWallet();
                             });
+
                             orderProvider.changePageStatus('active');
                           },
                           child: Container(
