@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "451726675021",
+    "project_id": "takeh-ff268",
+    "storage_bucket": "takeh-ff268.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451726675021:android:6d1dd07b1b678eeb8ce004",
+        "android_client_info": {
+          "package_name": "com.takeh.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451726675021-6he166grhljsu4jdvgp8c9c7k3an8r1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAQpZeWrEmkxW8zz8toPyi4CYtu0qaDjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451726675021-6he166grhljsu4jdvgp8c9c7k3an8r1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
