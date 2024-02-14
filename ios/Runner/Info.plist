@@ -1,119 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>BGTaskSchedulerPermittedIdentifiers</key>
-		<array>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-		</array>
-		<key>CADisableMinimumFrameDurationOnPhone</key>
-		<true/>
-		<key>CFBundleDevelopmentRegion</key>
-		<string>$(DEVELOPMENT_LANGUAGE)</string>
-		<key>CFBundleDisplayName</key>
-		<string>تكة</string>
-		<key>CFBundleExecutable</key>
-		<string>$(EXECUTABLE_NAME)</string>
-		<key>CFBundleIdentifier</key>
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
 		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
-		<key>CFBundleInfoDictionaryVersion</key>
-		<string>6.0</string>
-		<key>CFBundleName</key>
-		<string>takeh_user</string>
-		<key>CFBundlePackageType</key>
-		<string>APPL</string>
-		<key>CFBundleShortVersionString</key>
-		<string>1.0.17</string>
-		<key>CFBundleSignature</key>
-		<string>????</string>
-		<key>CFBundleURLTypes</key>
-		<array>
-			<dict>
-				<key>CFBundleTypeRole</key>
-				<string>Editor</string>
-				<key>CFBundleURLSchemes</key>
-				<array>
-					<string>com.googleusercontent.apps.451726675021-knhpn8v0h6f9rhgqt02v29rmuui7hotu</string>
-				</array>
-			</dict>
-		</array>
-		<key>CFBundleVersion</key>
-		<string>1</string>
-		<key>FirebaseAppDelegateProxyEnabled</key>
-		<false/>
-		<key>LSRequiresIPhoneOS</key>
-		<true/>
-		<key>NSAppTransportSecurity</key>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>تكة</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>takeh_user</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.18</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
 		<dict>
-			<key>NSExceptionDomains</key>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.451726675021-knhpn8v0h6f9rhgqt02v29rmuui7hotu</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>app.takeh.online</key>
 			<dict>
-				<key>app.takeh.online</key>
-				<dict>
-					<key>NSExceptionAllowsInsecureHTTPLoads</key>
-					<true/>
-					<key>NSIncludesSubdomains</key>
-					<true/>
-				</dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
 			</dict>
 		</dict>
-		<key>NSAppleMusicUsageDescription</key>
-		<string>This app needs Media access to play sound</string>
-		<key>NSBluetoothAlwaysUsageDescription</key>
-		<string>This app needs Bluetooth access to link to printer</string>
-		<key>NSBluetoothPeripheralUsageDescription</key>
-		<string>This app needs Bluetooth access to link to printer</string>
-		<key>NSCalendarsUsageDescription</key>
-		<string>This app needs Calendar access to remind you with your orders</string>
-		<key>NSCameraUsageDescription</key>
-		<string>This app needs Camera access to scan your orders</string>
-		<key>NSContactsUsageDescription</key>
-		<string>This app needs access to your Contacts to send order information</string>
-		<key>NSFaceIDUsageDescription</key>
-		<string>This app needs to access your Face ID to unlock app</string>
-		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-		<string>This app needs access to your Location to find the nearest driver to you</string>
-		<key>NSLocationAlwaysUsageDescription</key>
-		<string>This app needs access to your Location to find the nearest driver to you</string>
-		<key>NSLocationWhenInUseUsageDescription</key>
-		<string>This app needs access to your Location to find the nearest driver to you</string>
-		<key>NSMotionUsageDescription</key>
-		<string>we need to get a motion</string>
-		<key>NSPhotoLibraryAddUsageDescription</key>
-		<string>This app needs to access to your Photo Library</string>
-		<key>NSPhotoLibraryUsageDescription</key>
-		<string>This app needs to access to your Photo Library</string>
-		<key>NSRemindersUsageDescription</key>
-		<string>This app needs Calendar access to remind you with your orders</string>
-		<key>NSSpeechRecognitionUsageDescription</key>
-		<string>This app needs to access to your Speech Recognition</string>
-		<key>UIApplicationSupportsIndirectInputEvents</key>
-		<true/>
-		<key>UIBackgroundModes</key>
-		<array>
-			<string>fetch</string>
-			<string>processing</string>
-			<string>remote-notification</string>
-		</array>
-		<key>UILaunchStoryboardName</key>
-		<string>LaunchScreen</string>
-		<key>UIMainStoryboardFile</key>
-		<string>Main</string>
-		<key>UISupportedInterfaceOrientations</key>
-		<array>
-			<string>UIInterfaceOrientationPortrait</string>
-			<string>UIInterfaceOrientationLandscapeLeft</string>
-			<string>UIInterfaceOrientationLandscapeRight</string>
-		</array>
-		<key>UISupportedInterfaceOrientations~ipad</key>
-		<array>
-			<string>UIInterfaceOrientationPortrait</string>
-			<string>UIInterfaceOrientationPortraitUpsideDown</string>
-			<string>UIInterfaceOrientationLandscapeLeft</string>
-			<string>UIInterfaceOrientationLandscapeRight</string>
-		</array>
-		<key>UIViewControllerBasedStatusBarAppearance</key>
-		<false/>
-		<key>UIStatusBarHidden</key>
-		<false/>
 	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app needs Media access to play sound</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This app needs Bluetooth access to link to printer</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This app needs Bluetooth access to link to printer</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app needs Calendar access to remind you with your orders</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs Camera access to scan your orders</string>
+	<key>NSContactsUsageDescription</key>
+	<string>This app needs access to your Contacts to send order information</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>This app needs to access your Face ID to unlock app</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app needs access to your Location to find the nearest driver to you</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app needs access to your Location to find the nearest driver to you</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs access to your Location to find the nearest driver to you</string>
+	<key>NSMotionUsageDescription</key>
+	<string>we need to get a motion</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app needs to access to your Photo Library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs to access to your Photo Library</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>This app needs Calendar access to remind you with your orders</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app needs to access to your Speech Recognition</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIStatusBarHidden</key>
+	<false/>
+</dict>
 </plist>

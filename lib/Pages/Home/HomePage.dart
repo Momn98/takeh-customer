@@ -37,7 +37,9 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
-    authProvider.getWallet();
+    setState(() {
+      authProvider.getWallet();
+    });
 
     orderProvider.getNorRatedOrder(context);
     // orderProvider.getDistance(10, 12, 13, 15);
@@ -164,8 +166,9 @@ class _HomePageState extends State<HomePage> {
                             onTap: () async {
                               v.order = order;
                               await NavMove.goToPage(context, OneOrderPage());
-
-                              authProvider.getWallet();
+                              setState(() {
+                                authProvider.getWallet();
+                              });
                             },
                             child: Container(
                               padding: EdgeInsets.all(10),
@@ -239,8 +242,9 @@ class _HomePageState extends State<HomePage> {
                             }
 
                             orderProvider.orders = [];
-
-                            authProvider.getWallet();
+                            setState(() {
+                              authProvider.getWallet();
+                            });
                             orderProvider.changePageStatus('active');
                           },
                           child: Container(

@@ -772,6 +772,9 @@ class _OneOrderPageState extends State<OneOrderPage> {
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
                                       () {
+                                        setState(() {
+                                          authProvider.getWallet();
+                                        });
                                         NavMove.goBack(context);
                                       },
                                     ),
